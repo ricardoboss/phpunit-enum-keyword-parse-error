@@ -1,0 +1,19 @@
+{
+    "name": "ricardoboss/phpunit-enum-keyword-parse-error",
+    "require": {
+        "phpunit/phpunit": "9.5.10",
+	"nikic/php-parser": "<4.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ricardoboss\\PhpunitEnumKeywordParseError\\": "src/",
+            "Ricardoboss\\PhpunitEnumKeywordParseError\\Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ricaro Boss",
+            "email": "contact@ricardoboss.de"
+        }
+    ]
+}
